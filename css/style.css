@@ -1,0 +1,96 @@
+body {
+  font-size: 16px;
+  line-height: 1.125rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  min-height: 40vh;
+}
+
+.container{
+  width: 90%;
+  margin-left: 25%
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.2rem;
+  text-align: center;
+}
+
+.content {
+    background: White;
+    position: absolute;
+    overflow: hidden;
+    height: 500px;
+    width: 750px;
+}
+
+.slider {
+  height: 100%;
+  width: 500%;
+  display: flex;
+  transition: all 0.3s;
+}
+
+.slider section {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+.slider section img {
+  padding: 15px 18px 15px 18px;
+}
+
+.slider section p{
+  text-align: start;
+  padding: 15px 75px 15px 0px;
+}
+.content .left_arrow{
+position: absolute;
+top:50%;
+width: 50px;
+height: 50px;
+border: 2px solid rgba(55, 55, 55, 0.2);
+cursor: pointer;
+background: transparent;
+}
+
+.content .left_arrow:hover{
+  background: White;
+}
+
+.left_arrow img{
+  width: 40px;
+  height: 40px;
+  line-height: 45;
+  padding-top: 5px;
+}
+
+.content .right_arrow{
+position: absolute;
+top:50%;
+right:0%;
+width: 50px;
+height: 50px;
+border: 2px solid rgba(55, 55, 55, 0.2);
+cursor: pointer;
+background: transparent;
+}
+
+.content .right_arrow:hover{
+  background: white;
+}
+
+.right_arrow img{
+  width: 40px;
+  height: 40px;
+  line-height:45;
+  padding-top: 5px;
+}
+
+.is-hidden {display: none;}
